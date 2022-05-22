@@ -1,0 +1,29 @@
+{
+  "extends": ["gitmoji"],
+  "rules": {
+    "header-max-length": [0, "always", 150],
+    "subject-case": [0, "always", "sentence-case"],
+    "type-enum": [
+      2,
+      "always",
+      [
+        "init",
+        "feature",
+        "fix",
+        "build",
+        "chore",
+        "ci",
+        "docs",
+        "style",
+        "refactor",
+        "test",
+        "perf",
+        "revert",
+        "release",
+        "plus",
+        "minus",
+        "config"
+      ]
+    ]
+  }
+}
