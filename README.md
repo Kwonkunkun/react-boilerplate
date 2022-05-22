@@ -15,6 +15,9 @@
 yarn
 
 yarn dev
+
+//if you want setting .gitmessage.txt (in project root)
+git config --global commit.template .gitmessage.txt
 ```
 
 ### message convention (+ gitmoji)

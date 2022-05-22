@@ -1,0 +1,27 @@
+# <깃모지> <타입> : <제목> 형식으로 작성하며 제목은 최대 50글자 정도로만 입력
+# ex) 🐛 fix: ui bug 
+# 제목을 아랫줄에 작성, 제목 끝에 마침표 금지, 무엇을 했는지 명확하게 작성
+
+################
+# 본문(추가 설명)을 아랫줄에 작성
+
+################
+# 꼬릿말(footer)을 아랫줄에 작성 (관련된 이슈 번호 등 추가)
+
+################
+# 🎉 init: project 시작 & 세팅 
+# ✨ feature: 새로운 기능 추가
+# 🐛 fix: 버그 수정
+# 👷 build: 빌드
+# 🔨 chore: 자잘한 스크립트 수정
+# 💚 ci: ci script
+# 📝 docs: update docs
+# 💄 style: style code
+# 🎨 refactor: code refactoring
+# ✅ test: (adding missing tests, refactoring tests; no production code change)
+# ⚡️ perf: performance improve
+# ⏪️ revert: revert change
+# 🔖 release: release
+# ➕ plus: dependency + & dependency setting
+# ➖ minus: dependency - & dependency setting remove
+# 🔧 config: config file 수정
