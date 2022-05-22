@@ -12,7 +12,8 @@
     "husky:lint": "npx husky add .husky/pre-commit 'npm run lint'",
     "prepare": "husky install",
     "prettier": "cd src && npx prettier --write . && git add .",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "test": "jest"
   },
   "dependencies": {
     "react": "^18.0.0",
@@ -21,6 +22,9 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^14.2.0",
+    "@types/jest": "^27.5.1",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
@@ -38,7 +42,10 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^8.0.0",
+    "jest": "^28.1.0",
     "prettier": "^2.6.2",
+    "ts-jest": "^28.0.2",
+    "ts-node": "^10.8.0",
     "typescript": "^4.6.3",
     "vite": "^2.9.9"
   }

@@ -24,6 +24,7 @@ yarn-error.log*
 #test
 *.test.tsx
 src/setupTests.ts
+jest.setup.ts
 
 # configs
 vite.config.ts
