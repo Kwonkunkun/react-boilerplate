@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+coverage
+
+# production
+build
+dist
+
+# misc
+.DS_Store
+.env
+.env.production
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#test
+*.test.tsx
+src/setupTests.ts
+
+# configs
+vite.config.ts
+tsconfig.json
+tsconfig.extend.json
+
+# etc
+README.md
+
+# types
+src/types
+*.d.ts
+
+# css, svg file
+src/**/*.css
+src/**/*.svg
